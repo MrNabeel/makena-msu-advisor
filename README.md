@@ -1,12 +1,36 @@
 # Makena — AI Academic Advisor Chatbot
 
+[![Live Demo](https://img.shields.io/badge/▶_Live_Demo-no_sign--in-2EA44F)](https://www.chatbase.co/GeaLoS1HzU00TcJnmPRTQ/help)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+![RAG](https://img.shields.io/badge/Architecture-RAG-8A2BE2)
+![Benchmark](https://img.shields.io/badge/Benchmark-9.2%2F10-success)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A production-deployed RAG (Retrieval-Augmented Generation) chatbot built for **Montclair State University's Feliciano School of Business**. Makena answers real student questions about prerequisites, registration, GPA and academic standing, parking, advising appointments, and program eligibility — with source citations and an AI-liability disclaimer on every response.
 
 **▶ Try it live (no sign-in):** https://www.chatbase.co/GeaLoS1HzU00TcJnmPRTQ/help
 
-> **Final project for INFO 401 (Text Mining), Spring 2026.** Built by Muhammad Nabeel (project manager and lead developer) with teammates Mary Carr and Kenneth Chiong. I designed and built the data pipeline, the RAG knowledge base, the system prompt, and the testing. Benchmarked at **9.2/10** across five evaluation dimensions.
+### At a glance
 
-**Tech:** Python · `aiohttp` / `asyncio` · `BeautifulSoup4` · `tenacity` · Claude API (Q&A generation) · Chatbase (GPT-4o Mini) · RAG · Prompt Engineering
+| | |
+|---|---|
+| **What** | A 24/7 academic-advising chatbot, deployed and in use |
+| **My role** | Project manager + lead developer (designed and built the pipeline, knowledge base, prompt, and testing) |
+| **Result** | **9.2/10** benchmark across 5 dimensions — a **+61%** lift from baseline |
+| **Hardest problem** | An undergrad/grad "data bleed" hallucination — solved with isolated data silos |
+| **Security** | Held against **35+** adversarial red-team prompts |
+| **Stack** | Python · `aiohttp`/`asyncio` · `BeautifulSoup4` · `tenacity` · Claude API · Chatbase (GPT-4o Mini) |
+
+> Final project for INFO 401 (Text Mining), Spring 2026 — a 3-person team (Mary Carr, Kenneth Chiong) where I led the build.
+
+---
+
+## 📸 Screenshots
+
+> _Add 2–3 screenshots of Makena answering a question (e.g. the prerequisite-override and the combined BS/MS answers). Save them in a `screenshots/` folder and reference them here — visuals are the first thing a reviewer looks for._
+
+<!-- ![Makena answering a prerequisite question](screenshots/prereq.png) -->
+<!-- ![Source citation + AI disclaimer](screenshots/citation.png) -->
 
 ---
 

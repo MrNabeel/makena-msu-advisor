@@ -1,0 +1,17 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Scraped data — never commit university content or generated KB dumps
+msu_kb_export.txt
+generated_qa.md
+*.txt.bak
+data/raw/
+
+# OS
+.DS_Store

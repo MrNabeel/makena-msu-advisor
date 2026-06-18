@@ -25,12 +25,15 @@ A production-deployed RAG (Retrieval-Augmented Generation) chatbot built for **M
 
 ---
 
-## 📸 Screenshots
+## 📸 Makena in action
 
-> _Add 2–3 screenshots of Makena answering a question (e.g. the prerequisite-override and the combined BS/MS answers). Save them in a `screenshots/` folder and reference them here — visuals are the first thing a reviewer looks for._
+**Home screen** — greets students with suggested high-frequency questions:
 
-<!-- ![Makena answering a prerequisite question](screenshots/prereq.png) -->
-<!-- ![Source citation + AI disclaimer](screenshots/citation.png) -->
+![Makena home screen](screenshots/makena-home.png)
+
+**Answering a real question** — pulls from the curated knowledge base, links the official source, and ends with the required AI disclaimer:
+
+![Makena answering a student question with a source link and AI disclaimer](screenshots/makena-answer.png)
 
 ---
 
